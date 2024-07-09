@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:orangered;
+    padding: 20px;
+}
+
+span{
+    color:black;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    padding-top: 10px;
+    display:inline;
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+}
+li{
+    display: inline;
+    color: black;
+    font-size: 30px;
+    padding:20px;
+    padding-right: 70px;
+}
+ul{
+    display: inline;
+    padding-left:15%
+    
+}
+.picture1-content{
+    margin-top: 200px;
+margin-left: 100px;
+}
+li:hover,
+li:active{
+    color:white;
+    
+}
+
+.name{
+    color: orangered;
+}
+p{
+    color:white
+}
+.picture{
+    display: flex;
+    align-items: center;
+    gap:7em;
+    
+}
+.picture-content{
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.picture-content h1{
+    font-size: 62px;
+    line-height:1.2;
+}
+.picture-content p{
+    font-size: 25px;
+    margin: 25px 0 30px;
+
+}
+.btn-1{
+    margin-left: 250px;
+    margin-top: 20px;
+    background-color:orangered;
+    color:black;
+    border: 2px solid transparent;
+    border-radius:8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn-1:hover{
+    background-color:white;
+    color:black;
+    border:2px solid rgb(255, 254, 254)
+}
+img{
+    border-radius: 50%;
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 25px orangered,
+    0 0 50px orangered;
+}
+
+skills{
+    align-items: center;
+    background: #ffffff; 
+    padding-left: 500px;
+}
+
+.skill{
+    width: 100%; 
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name{
+    font-size: 18px;
+    color:white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 20px;
+    background: gray;
+    color: #006663;
+    border-radius: 88px;
+}
+
+.skill-per1{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 90%;
+    position: relative;
+}
+.skill-per2{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 70%;
+    position: relative;
+}
+.skill-per3{
+    height:20px ;
+    background-color: #00b3ad;
+    border-radius: 8px;
+    width: 60%;
+    position: relative;
+}
+
+.skill-per1::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per1::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: ☐ #000;
+top: -16px;
+right: 0;
+transform: transla 2px;
+border-radius: 2px;
+}
+.skill-per2::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #fc0202;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per2::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: #fc0202;
+top: -16px;
+right: 0;
+transform: transla 2px;
+border-radius: 2px;
+}
+.skill-per3::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #fc0202;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    
+}
+
+.skill-per3::after{
+    content: '';
+position: absolute;
+width: 10px;
+height: 10px;
+background-color:#fc0202 ;
+top: -16px;
+right: 0;
+transform: transla 2px;
+border-radius: 2px;
+}
+.skill h1{
+    text-align: center;
+    font-size:50px;
+}
+section#project{
+    text-align: center;
+    padding: 20px;
+}
+
+section #project h1 {
+    font-size: 36px;
+    color: #66FCF1;
+}
+section #project h2{
+  font-size: 36px;
+    color: #fff;
+}
+.contact-form {
+    width: 200px;
+    padding: 10px 10px;
+    padding-bottom:500px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px orangered;
+   padding:50px;
+   margin-left: 500px;
+   margin-top: 100px;
+   
+}
+
+.contact-form h1 {
+    color: orangered;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form h1 span {
+    color: white;
+}
+
+.contact-form .input-box {
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 2px solid orangered;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact-form .input-box textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form .input-box label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.contact-form .input-box input:focus ~ label,
+.contact-form .input-box input:valid ~ label,
+.contact-form .input-box textarea:focus ~ label,
+.contact-form .input-box textarea:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: orangered;
+    font-size: 12px;
+}
+
+.contact-form button {
+    width: 100%;
+    background: orangered;
+    border: none;
+    padding: 10px;
+    color: #111;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: orangered;
+}
+footer{
+    
+        background: #000; 
+        color: #fff;
+        text-align: center; 
+        padding: 10px 0; 
+        }
+
